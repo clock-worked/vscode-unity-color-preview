@@ -1,9 +1,9 @@
 ## Unity Color Preview
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/clockworked.vscode-unity-color-preview)](https://marketplace.visualstudio.com/items?itemName=clockworked.vscode-unity-color-preview)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/clockworked.vscode-unity-color-preview)](https://marketplace.visualstudio.com/items?itemName=clockworked.vscode-unity-color-preview)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/clockworked.vscode-unity-color-preview)](https://marketplace.visualstudio.com/items?itemName=clockworked.vscode-unity-color-preview)
-[![Open VSX](https://img.shields.io/open-vsx/v/clockworked/vscode-unity-color-preview)](https://open-vsx.org/extension/clockworked/vscode-unity-color-preview)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/clock-worked.vscode-unity-color-preview)](https://marketplace.visualstudio.com/items?itemName=clock-worked.vscode-unity-color-preview)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/clock-worked.vscode-unity-color-preview)](https://marketplace.visualstudio.com/items?itemName=clock-worked.vscode-unity-color-preview)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/clock-worked.vscode-unity-color-preview)](https://marketplace.visualstudio.com/items?itemName=clock-worked.vscode-unity-color-preview)
+[![Open VSX](https://img.shields.io/open-vsx/v/clock-worked/vscode-unity-color-preview)](https://open-vsx.org/extension/clock-worked/vscode-unity-color-preview)
 
 Inline color previews for Unity's `Color` and `Color32` constructors in C#.
 

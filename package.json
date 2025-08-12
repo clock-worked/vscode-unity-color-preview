@@ -3,7 +3,7 @@
   "displayName": "Unity Color Preview",
   "description": "Inline color previews for Unity's Color and Color32 constructors in C# (e.g., new Color(0.5f, 0.5f, 0.5f, 0.25f))",
   "version": "0.1.0",
-  "publisher": "clockworked",
+  "publisher": "clock-worked",
   "engines": {
     "vscode": "^1.85.0"
   },
