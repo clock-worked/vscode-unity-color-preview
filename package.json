@@ -2,7 +2,7 @@
   "name": "vscode-unity-color-preview",
   "displayName": "Unity Color Preview",
   "description": "Inline color previews for Unity's Color and Color32 constructors in C# (e.g., new Color(0.5f, 0.5f, 0.5f, 0.25f))",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "publisher": "clock-worked",
   "icon": "media/icon.png",
   "engines": {
