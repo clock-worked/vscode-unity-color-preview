@@ -7,7 +7,7 @@
 
 Inline color previews for Unity's `Color` and `Color32` constructors in C#.
 
-![Demo](media/unity-color-preview.gif)
+![Demo](media/color-preview.gif)
 
 ### Features
 

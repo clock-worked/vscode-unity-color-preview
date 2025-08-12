@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         run: npm i --no-audit --no-fund
 
+      - name: Optimize GIF for marketplace
+        run: npm run optimize-gif
+
       - name: Derive version from tag
         id: vars
         run: echo "version=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT

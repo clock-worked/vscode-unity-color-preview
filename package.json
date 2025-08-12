@@ -41,14 +41,15 @@
     "watch": "tsc -watch -p ./",
     "package": "vsce package",
     "publish:vscode": "vsce publish",
-    "publish:openvsx": "ovsx publish"
+    "publish:openvsx": "ovsx publish",
+    "optimize-gif": "gifsicle --optimize=3 --colors=128 --lossy=80 media/color-preview.gif -o media/color-preview-optimized.gif && mv media/color-preview-optimized.gif media/color-preview.gif",
+    "check-gif": "echo 'GIF file size:' && ls -lh media/color-preview.gif && echo 'GIF dimensions:' && gifsicle --info media/color-preview.gif | head -5"
   },
   "devDependencies": {
     "@types/vscode": "^1.85.0",
-    "typescript": "^5.4.0",
+    "@vscode/vsce": "^3.0.0",
+    "gifsicle": "^7.0.1",
     "ovsx": "^0.8.3",
-    "@vscode/vsce": "^3.0.0"
+    "typescript": "^5.4.0"
   }
 }
-
-
