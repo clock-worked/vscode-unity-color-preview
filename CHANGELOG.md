@@ -2,6 +2,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
+## [1.2.1] - 2025-01-27
+- Updated README with comprehensive settings documentation
+- Added configuration examples and usage instructions
+- Improved documentation with new demo images
+
 ## [1.2.0] - 2025-01-27
 - Added configurable color highlighting with background or underline styles
 - Added support for named Unity colors (Color.red, Color.white, Color.clear, etc.)
