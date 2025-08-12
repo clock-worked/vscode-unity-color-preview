@@ -1,0 +1,53 @@
+{
+  "name": "vscode-unity-color-preview",
+  "displayName": "Unity Color Preview",
+  "description": "Inline color previews for Unity's Color and Color32 constructors in C# (e.g., new Color(0.5f, 0.5f, 0.5f, 0.25f))",
+  "version": "0.1.0",
+  "publisher": "clockworked",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "unity",
+    "csharp",
+    "color",
+    "color32",
+    "preview",
+    "inline"
+  ],
+  "activationEvents": [
+    "onLanguage:csharp"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "qna": false,
+  "license": "MIT",
+  "author": "Clockworked",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Clockworked/vscode-unity-color-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Clockworked/vscode-unity-color-preview/issues"
+  },
+  "homepage": "https://github.com/Clockworked/vscode-unity-color-preview#readme",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "publish:vscode": "vsce publish",
+    "publish:openvsx": "ovsx publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.4.0",
+    "ovsx": "^0.8.3",
+    "@vscode/vsce": "^3.0.0"
+  }
+}
+
+
